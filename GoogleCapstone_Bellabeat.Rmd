@@ -2,7 +2,10 @@
 title: "BellabeatAnalysis_GoogleCapstone"
 author: "Data Nathan V"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
 ---
 
 # Introduction and Background
@@ -178,7 +181,7 @@ My next point would be the relationship between time spent sedentary and calorie
 Lastly, the relationship between total time asleep and calories burnt should be discussed. My assumption was that users would be able to burn more calories if they get more rest. The result shows a -4.06% which invalidates my assumption. It is a very small margin just like the last point. 
 
 
-The clean sample size of 24 is not sufficient in my opinion but there are significant findings from the analyses. Furthermore, I used the average for all the categories for each users, within the two months that data was collected. I highly suggest having a larger sample size and a longer time period to gather data for further researcher. 
+The clean sample size of 24 is not sufficient in my opinion but there are significant findings from the analyses. Furthermore, I used the average for all the categories for each users, within the two months that data was collected. I highly suggest having a larger sample size and a longer time period to gather data for further research. 
 
 
 
